@@ -12,8 +12,9 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
         ArrayList<ClimaObserver> observadores = new ArrayList<>();
-        observadores.add(new GuardarTemperaturaEnArchivo(new File("Archivo.txt")));
+        observadores.add(new GuardarTemperaturaEnArchivo(new File("Temperatura.txt")));
         observadores.add(new MostrarPorConsola());
+        
         Medidor medidor = new Medidor(new WeatherChannelService(), observadores);
         System.out.println("La Temperatura es de : " + medidor.leerTemperatura());
     }

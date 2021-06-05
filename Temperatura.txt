@@ -11,3 +11,4 @@ Temperatura 11 c 03/06/2021 21:24
 Temperatura 53 c 03/06/2021 21:25
 Temperatura 90 c 03/06/2021 21:27
 Temperatura 26 c 03/06/2021 21:28
+Temperatura 82 c 04/06/2021 22:52
